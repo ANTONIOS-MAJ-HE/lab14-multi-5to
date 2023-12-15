@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Database2022
 {
@@ -9,5 +7,8 @@ namespace Database2022
         public int PersonId { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
+        public DateTime Fecha { get; set; } // Nuevo campo
+        public string Curso { get; set; }   // Nuevo campo
+        public string Genero { get; set; }  // Nuevo campo
     }
 }
